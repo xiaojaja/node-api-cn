@@ -3,7 +3,7 @@
 
 想要获得调用 `require()` 时加载的确切的文件名，使用 `require.resolve()` 函数。
 
-综上所述，以下用伪代码描述的高级算法，解释 `resolve()` 做了些什么：
+综上所述，以下用伪代码描述的高级算法，解释 `require()` 做了些什么：
 
 ```text
 require(X) from module at path Y
